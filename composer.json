@@ -13,9 +13,10 @@
             "name": "abhimanyu"
         }
     ],
-    "minimum-stability": "beta",
-   "require": {
-    "illuminate/support": "^11.36",
+    "minimum-stability": "dev", 
+    "prefer-stable": true,
+    "require": {
+        "illuminate/support": "^11.36",
         "illuminate/database": "^11.36",
         "illuminate/routing": "^11.36",
         "illuminate/view": "^11.36",
@@ -29,6 +30,5 @@
         "illuminate/notifications": "^11.36",
         "illuminate/translation": "^11.36",
         "guzzlehttp/guzzle": "^7.9"
-}
-
+    }
 }
